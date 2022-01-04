@@ -1,5 +1,4 @@
 FROM centos:7
-MAINTAINER admin@dataadnstoragesolutions.com
 
 RUN yum install -y epel-release && yum clean all -y
 RUN yum update -y && yum clean all -y
